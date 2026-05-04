@@ -11,8 +11,8 @@
     <Authors>CrashBytes</Authors>
     <Company>CrashBytes</Company>
     <Copyright>Copyright (c) 2026 CrashBytes</Copyright>
-    <Description>Source-generator-powered enum utilities for .NET — GetDescription, GetDisplayName, ToDictionary, AOT-safe.</Description>
-    <PackageTags>enum;source-generator;description;display-name;aot;utility</PackageTags>
+    <Description>Cached runtime enum utilities for .NET — GetDescription, GetDisplayName, GetEnumMemberValue, HasFlagFast (non-boxing), GetFlags, TryParse. Per-type reflection cache with ConcurrentDictionary; no per-call allocations after first resolution.</Description>
+    <PackageTags>enum;extensions;description;display-name;flags;has-flag;cached;utility</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/CrashBytes/CrashBytes.Enums</PackageProjectUrl>
     <RepositoryUrl>https://github.com/CrashBytes/CrashBytes.Enums</RepositoryUrl>
